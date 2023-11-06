@@ -13,5 +13,5 @@ terraform {
 
 resource "aws_instance" "my_first_ec2" {
   ami           = "ami-02e94b011299ef128"
-  instance_type = "t2.micro"
+  instance_type = "t2.large"
 }
